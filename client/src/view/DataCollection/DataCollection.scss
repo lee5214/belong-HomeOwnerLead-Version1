@@ -1,0 +1,1 @@
+@import "../../styles/section";$break-small: 1000px;.root{  height: calc(100vh - 404px - 2rem);  @media screen and (max-width: $break-small){    min-height: auto  }}.resultsContainer{  margin-top: 2rem}.cardWrapper{  position: relative;  max-height: 500px;  max-width: 600px;  margin: 0 auto}

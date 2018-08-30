@@ -1,0 +1,28 @@
+{
+  "name": "belong-homeownerlead",
+  "version": "1.0.0",
+  "author": "CongLi",
+  "private": true,
+  "scripts": {
+    "start": "npm run server:prod",
+    "client:dev": "NODE_ENV=dev cd client && npm start",
+    "client-build": "npm install --prefix client && npm run build --prefix client",
+    "server:dev": "NODE_ENV=development cd server && npm start",
+    "server:prod": "NODE_ENV=production cd server && node bin/www",
+    "dev": "concurrently \" npm run client:dev \" \" npm run server:dev \" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client && npm install --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "eslint": "^5.3.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "nodemon": "^1.18.3",
+    "prettier": "^1.14.2",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-loader": "^2.1.0"
+  }
+}

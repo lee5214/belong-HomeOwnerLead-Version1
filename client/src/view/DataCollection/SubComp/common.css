@@ -1,0 +1,61 @@
+.sectionContainer {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1rem; }
+
+.sectionTitle {
+  font-size: 20px; }
+
+.card {
+  background: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12); }
+  @media screen and (max-width: 1000px) {
+    .card {
+      max-width: 100%; } }
+
+.card {
+  background: white;
+  margin: 3rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12); }
+  @media screen and (max-width: 1000px) {
+    .card {
+      max-width: 100%; } }
+
+.margin {
+  margin: 1px; }
+
+.withoutLabel {
+  margin-top: 2px; }
+
+.textField {
+  flex-basis: 100px;
+  width: 100%; }
+
+.resultsContainer {
+  background: transparent;
+  box-shadow: none; }
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.priceBlock {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto; }
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,42 @@
+@import url(../../../../styles/section.css);
+@import url(../../../../styles/card.css);
+.margin {
+  margin: 1px; }
+
+.withoutLabel {
+  margin-top: 2px; }
+
+.textField {
+  flex-basis: 100px;
+  width: 100%; }
+
+.block {
+  height: 103.95px; }
+
+.warningMsg {
+  margin: 19px auto 32px auto;
+  height: 33px;
+  width: 229px;
+  color: #AAAAAA;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center; }
+
+.button {
+  width: 100%;
+  background-color: #009BFF;
+  padding: 18px;
+  text-align: center; }
+  .button .enterProperty {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center; }
+
+.iconContainer {
+  width: 48px;
+  height: 48px; }
+
+/*# sourceMappingURL=SignUp.css.map */
